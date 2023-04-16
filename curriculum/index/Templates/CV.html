@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".\Styles.css" type="text/css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'Styles.css' %}" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <title>Curriculum</title>
@@ -16,7 +17,7 @@
             <div class="foto" ><img src="Imagenes/picture.png" width="250px" height="300px"/></div>
             <div class="info_contacto">
                 <div class="titulos2">CONTACTO</div>
-                <div>Telefono: +502 3957-3437 <br><br> </div>
+                <div class="contenido2"><img src="Imagenes/tel.png"   width="25px" height="25px"/> +502 3957-3437 <br><br><img src="Imagenes/mail.png"   width="25px" height="25px"/> Oscar123153@gmail.com <br><br><img src="Imagenes/location.png"   width="25px" height="25px"/> Guatemala, San Jose Pinula</div>
             </div>
         </div>
         <div class="cajon2">
