@@ -56,7 +56,7 @@ ROOT_URLCONF = 'curriculum.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['D:\Desktop\RepoPractica2\IPC2_Practica2_202011212\curriculum\index\Templates'],
+        'DIRS': ['index\Templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -119,7 +119,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-
+STATICFILES_DIRS = [
+    'index/static'
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
