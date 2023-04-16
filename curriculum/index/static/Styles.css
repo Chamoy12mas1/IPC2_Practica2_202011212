@@ -63,7 +63,10 @@
 .foto{
     margin: 50px;
     padding-left: 80px;
+    border: 50px solid blue;
 }
+
+
 
 .titulos2{
     margin-top: 20px;
