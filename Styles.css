@@ -1,0 +1,73 @@
+
+
+.contenedor{
+    
+    display:flex;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    
+}
+
+.cajon1{
+    height: 500px;
+    width: 40%;
+    background-color: red;
+
+}
+
+.cajon2{
+    height: 500px;
+    width: 60%;
+    
+}
+
+.nombre{
+    height: 200px;
+    font-family: 'Trebuchet MS';
+    font-size: 80px;
+}
+
+.Apellido{
+    color: #01516B;
+}
+
+.info{
+    display:  grid;
+    height: 540px;
+    background-color: #242424;
+    grid-template-rows: 50px auto auto auto auto auto;
+}
+.titulos1{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #767676;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.contenido1{
+    text-align: justify;
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-right: 80px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+.foto{
+    margin: 50px;
+}
+
+.titulos2{
+    margin-top: 20px;
+    
+    background-color: #767676;
+    font-family: 'Montserrat', sans-serif;
+    color: #01516B;
+    padding-left: 50px;
+    padding-top: 5px;
+    font-size: 20px;
+}
